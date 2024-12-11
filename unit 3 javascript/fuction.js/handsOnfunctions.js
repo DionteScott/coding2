@@ -1,4 +1,4 @@
-function profilebio(name, income, debt){
+function profilebio(name, income, debt,m){
 console.log("username: " + name);
 console.log("my income is: " + income);
 let totalValues = income - debt;
