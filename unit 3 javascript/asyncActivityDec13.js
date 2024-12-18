@@ -41,3 +41,43 @@ function netflixTickets(Age) {
 
 
 netflixTickets(4)
+
+
+
+
+
+
+//You have been hired by target to assist them with their store 
+// member discount software. The would like to make it so that shoppers 
+// who have a specific membership tier can save a certain amount of money 
+// on the products they buy. provided below are the memberships and the 
+// discount amount they should recieve:
+
+//superShopper should recieve a 10% discount on their items
+//megaShopper should recieve a 15% discount on their items
+//ultraShopper should receive a 20% discount on their items
+
+
+function DiscountFunction(membership, itemPrice) {
+    console.log("Testing. Function works");
+    if (membership === "superShoper") {
+        console.log("you are na superShopper, here is a 10 mpercent discount.");
+
+        var discountAmount = itemPrice * 0.1
+        console.log(discountAmount)
+        var total = itemPrice - discountAmount
+        console.log(total);
+
+        
+    } else if (membership === "megaShopper") {
+        console.log("you are a mega shopper, here is a 15 percent discount.");
+        var discountAmount = itemPrice * 0.15;
+        console.log(discountAmount);
+        var total = itemPrice - discountAmount
+        console.log(total);
+
+} else if (membership === "ultraShopper") {
+    console.log
+}
+
+}
