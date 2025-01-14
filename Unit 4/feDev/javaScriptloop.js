@@ -15,5 +15,5 @@ console.log("you are in a masters pregram in graduate school.")
 }
 }
 
-educationRank(6);
+educationRank(6);hiv
     
